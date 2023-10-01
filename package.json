@@ -1,5 +1,6 @@
 {
   "name": "instagram-clone",
+  "homepage": "https://jurazil.github.io/BunniBook-Instagram-Clone",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -22,8 +23,8 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject",
-    "homepage": "https://jurazil.github.io/BunniBook-Instagram-Clone"
+    "eject": "react-scripts eject"
+
   },
   "eslintConfig": {
     "extends": [
