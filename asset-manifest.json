@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/static/css/main.a845a4b5.css",
-    "main.js": "/static/js/main.02246560.js",
-    "static/js/787.9d576594.chunk.js": "/static/js/787.9d576594.chunk.js",
-    "static/media/bunnibook.png": "/static/media/bunnibook.80cdee6fb3c812df23b1.png",
-    "static/media/bunnibook1.png": "/static/media/bunnibook1.cdf46a5a2d1505e18df5.png",
-    "static/media/sparkle.png": "/static/media/sparkle.02e764c23d6ca7d32c7f.png",
-    "static/media/CuteBubble.ttf": "/static/media/CuteBubble.c1cae3300c5e6be242c1.ttf",
-    "index.html": "/index.html",
-    "main.a845a4b5.css.map": "/static/css/main.a845a4b5.css.map",
-    "main.02246560.js.map": "/static/js/main.02246560.js.map",
-    "787.9d576594.chunk.js.map": "/static/js/787.9d576594.chunk.js.map"
+    "main.css": "/BunniBook-Instagram-Clone/static/css/main.d3a52fcd.css",
+    "main.js": "/BunniBook-Instagram-Clone/static/js/main.cbed684e.js",
+    "static/js/787.9d576594.chunk.js": "/BunniBook-Instagram-Clone/static/js/787.9d576594.chunk.js",
+    "static/media/bunnibook.png": "/BunniBook-Instagram-Clone/static/media/bunnibook.80cdee6fb3c812df23b1.png",
+    "static/media/bunnibook1.png": "/BunniBook-Instagram-Clone/static/media/bunnibook1.cdf46a5a2d1505e18df5.png",
+    "static/media/sparkle.png": "/BunniBook-Instagram-Clone/static/media/sparkle.02e764c23d6ca7d32c7f.png",
+    "static/media/CuteBubble.ttf": "/BunniBook-Instagram-Clone/static/media/CuteBubble.c1cae3300c5e6be242c1.ttf",
+    "index.html": "/BunniBook-Instagram-Clone/index.html",
+    "main.d3a52fcd.css.map": "/BunniBook-Instagram-Clone/static/css/main.d3a52fcd.css.map",
+    "main.cbed684e.js.map": "/BunniBook-Instagram-Clone/static/js/main.cbed684e.js.map",
+    "787.9d576594.chunk.js.map": "/BunniBook-Instagram-Clone/static/js/787.9d576594.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.a845a4b5.css",
-    "static/js/main.02246560.js"
+    "static/css/main.d3a52fcd.css",
+    "static/js/main.cbed684e.js"
   ]
 }
