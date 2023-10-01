@@ -23,7 +23,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "homepage": "https://jurazil.github.io/bunnibook-gh-pages"
+    "homepage": "https://jurazil.github.io/BunniBook-Instagram-Clone"
   },
   "eslintConfig": {
     "extends": [
