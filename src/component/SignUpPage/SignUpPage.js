@@ -11,7 +11,10 @@ function SignUpPage() {
         <BunniTextField placeholder="Enter name" />
         <BunniTextField placeholder="Enter email" type="email" />
         <BunniTextField placeholder="Enter password" type="password" />
-        <button className="login-button">Sign Up</button>
+        <Link Link to="/dumpy">
+          <button className="login-button">Sign Up</button>
+        </Link>
+
         <p className="register-link">
           Already have an account?
           <center>

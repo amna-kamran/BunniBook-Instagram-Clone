@@ -1,0 +1,17 @@
+.appbar {
+  background-color: transparent;
+}
+.custom-text {
+  color: white;
+}
+
+.navbar-logo {
+  height: 2.3rem;
+  width: 8rem;
+}
+
+.toolbar {
+  display: flex;
+  justify-content: center;
+  background-color: white;
+}

@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import TextField from "@mui/material/TextField";
-import InputAdornment from "@mui/material/InputAdornment";
 import "./Font.css";
 import sparkle from "../../assets/sparkle.png";
 import "./TextField.css";

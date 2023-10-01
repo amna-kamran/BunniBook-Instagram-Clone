@@ -11,7 +11,10 @@ function LoginPage() {
         <img src={myImage} className="logo" alt="Logo" />
         <BunniTextField placeholder="Enter username" />
         <BunniTextField placeholder="Enter password" type="password" />
-        <button className="login-button">Login</button>
+        <Link Link to="/dumpy">
+          <button className="login-button">Login</button>
+        </Link>
+
         <p className="register-link">
           Create a new account <Link to="/signup">here</Link>
         </p>
