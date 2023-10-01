@@ -1,0 +1,8 @@
+@font-face {
+  font-family: "CuteBubble";
+  src: url("../../../../public/fonts/CuteBubble.ttf");
+}
+
+.field {
+  font-family: CuteBubble;
+}
