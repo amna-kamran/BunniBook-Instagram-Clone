@@ -1,18 +1,20 @@
 import React from "react";
-import Navbar from "../components/Navbar/Navbar";
 import { Avatar, Card, Divider } from "@mui/material";
 import "./HomePage.css";
 import FavoriteBorderIcon from "@mui/icons-material/FavoriteBorder";
 import TryIcon from "@mui/icons-material/Try";
+import myImage from "../../assets/bunnibook.png";
 import BookmarkBorderIcon from "@mui/icons-material/BookmarkBorder";
 import ReplyTwoToneIcon from "@mui/icons-material/ReplyTwoTone";
+import BunniTextField from "../components/TextField";
 function HomePage() {
   const usernames = ["User1", "User2", "User3"];
 
   return (
     <div className="home-container">
-      <Navbar />
-
+      <img src={myImage} className="homepage-logo" alt="Logo" />
+      <BunniTextField className="search-bar" placeholder={"Search"} />
+      <Divider className="divider" />
       <div className="card-container">
         {usernames.map((username, index) => (
           <Card key={index} className="card">
