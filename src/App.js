@@ -3,7 +3,8 @@ import "./App.css";
 import LoginPage from "./component/LoginPage/LoginPage";
 import SignUpPage from "./component/SignUpPage/SignUpPage";
 import HomePage from "./component/HomePage/HomePage";
-import Dumpy from "./component/components/Dumpy";
+import Dumpy from "./component/components/js/Dumpy";
+import withSplashScreen from "./component/components/js/withSplashScreen";
 
 function App() {
   return (
@@ -19,4 +20,4 @@ function App() {
   );
 }
 
-export default App;
+export default withSplashScreen(App);

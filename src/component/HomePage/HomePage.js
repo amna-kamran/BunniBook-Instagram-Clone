@@ -6,7 +6,7 @@ import TryIcon from "@mui/icons-material/Try";
 import myImage from "../../assets/bunnibook.png";
 import BookmarkBorderIcon from "@mui/icons-material/BookmarkBorder";
 import ReplyTwoToneIcon from "@mui/icons-material/ReplyTwoTone";
-import BunniTextField from "../components/TextField";
+import BunniTextField from "../components/js/TextField";
 function HomePage() {
   const usernames = ["User1", "User2", "User3"];
 

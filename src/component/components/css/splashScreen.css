@@ -1,0 +1,66 @@
+/* Default styles for larger screens */
+.App-logo {
+  height: 7.7rem;
+  width: 16rem;
+  position: absolute;
+  top: 40%;
+  left: 40%;
+  animation: ease-in-out infinite, fade-in 0.5s ease-in;
+}
+.lineL {
+  position: absolute;
+  top: 50%;
+  background-color: white;
+  height: 2px;
+  width: 16%;
+  left: 22%;
+  animation: loading 4s forwards cubic-bezier(0, 0, 0, 0);
+}
+.lineR {
+  position: absolute;
+  top: 50%;
+  background-color: white;
+  height: 2px;
+  width: 16%;
+  right: 22%; /* Change left to right */
+  animation: loading 4s forwards cubic-bezier(0, 0, 0, 0);
+}
+@keyframes loading {
+  0% {
+    width: 0%;
+  }
+  16% {
+    width: 16%;
+  }
+}
+@keyframes fade-in {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+/* Add a class for the "pop close" animation */
+@keyframes pop-close {
+  0% {
+    transform: scale(1);
+    opacity: 1;
+  }
+  100% {
+    transform: scale(0);
+    opacity: 0;
+  }
+}
+
+/* Media query for tablet and mobile screens */
+@media (max-width: 768px) {
+  .App-logo {
+    height: 5rem; /* Adjust the size for smaller screens */
+    width: 10rem;
+    top: 50%; /* Center vertically on smaller screens */
+    left: 50%; /* Center horizontally on smaller screens */
+    transform: translate(-50%, -50%); /* Center the logo precisely */
+  }
+}

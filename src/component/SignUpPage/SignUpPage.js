@@ -1,7 +1,7 @@
 import React from "react";
 import "./SignUpPage.css";
 import myImage from "../../assets/bunnibook1.png";
-import BunniTextField from "../components/TextField";
+import BunniTextField from "../components/js/TextField";
 import { Link } from "react-router-dom";
 function SignUpPage() {
   return (

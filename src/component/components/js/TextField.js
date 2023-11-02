@@ -1,8 +1,8 @@
 import React, { useState } from "react";
 import TextField from "@mui/material/TextField";
-import "./Font.css";
-import sparkle from "../../assets/sparkle.png";
-import "./TextField.css";
+import "../css/Font.css";
+import sparkle from "../../../assets/sparkle.png";
+import "../css/TextField.css";
 
 function BunniTextField({ placeholder, type }) {
   const [showIndicator, setShowIndicator] = useState(false);
